@@ -11,6 +11,12 @@ module.exports = {
       },
       padding: {
         15: '60px',
+      },
+      colors: {
+        violet: {
+          850: '#4200FF',
+          250: '#DFE3E8'
+        }
       }
     }
   }

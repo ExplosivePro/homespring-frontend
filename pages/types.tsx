@@ -5,9 +5,12 @@ export interface BookInfo {
         title: string
         categories: []
         imageLinks: {
-        smallThumbnail: string,
-        thumbnail: string
-        }
+            smallThumbnail: string,
+            thumbnail: string,
+        },
+        authors: string[],
+        publishedDate: string,
+        printType: string
     }
     searchInfo: {
         textSnippet: string
